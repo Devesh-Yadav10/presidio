@@ -517,31 +517,32 @@ recognizers:
 
   - name: PhoneRecognizer
     type: predefined
-      - name: EGPhoneRecognizer
+  
+  - name: EGPhoneRecognizer
     class_name: PhoneRecognizer
     supported_languages:
-    - en
+      - en
     type: predefined
     supported_entity: EG_PHONE_NUMBER
     supported_regions:
-    - EG
+      - EG
     context:
-    - mobile
-    - mobile number
-    - phone
-    - phone number
-    - telephone
-    - landline
-    - call
-    - number
-    - whatsapp
-    - contact
-    - موبايل
-    - رقم الموبايل
-    - تليفون
-    - هاتف
-    - رقم
-    - واتساب
+      - mobile
+      - mobile number
+      - phone
+      - phone number
+      - telephone
+      - landline
+      - call
+      - number
+      - whatsapp
+      - contact
+      - موبايل
+      - رقم الموبايل
+      - تليفون
+      - هاتف
+      - رقم
+      - واتساب
     
   - name: UrlRecognizer
     type: predefined
